@@ -6,7 +6,7 @@ import json
 # https://www.six-group.com/en/products-services/the-swiss-stock-exchange/market-data/statistics/intraday-activity-swissatmid/blue-chip-shares.html
 #SYMBOLS = ['NESN', 'NOVN', 'SCMN', 'UHR', 'ABBN', 'SIKA', 'GEBN', 'KNIN']
 # https://uk.wikipedia.org/wiki/NASDAQ-100
-SYMBOLS = ['FB','GOOGL', 'AMZN', 'AAPL', 'CSCO', 'INTU', 'MSFT', 'ADSK']
+SYMBOLS = ['FB','GOOGL', 'AMZN', 'AAPL', 'CSCO', 'MSFT', 'ADSK']
 
 for symbol in SYMBOLS:
     data = YFinance3(symbol)
