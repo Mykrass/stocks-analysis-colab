@@ -6,8 +6,9 @@ import json
 #           'BSY','GRAB','SSNC','APP','AZPN','MANH','ZI','NICE']
 
 # Data Centers https://www.youtube.com/watch?v=Od6_Val6C5g
+# https://www.barchart.com/?orderBy=percentChange5d&orderDir=desc
 # https://www.google.com/search?q=data+centers+company+tickers&rlz=1C5CHFA_enCH1007CH1007&oq=data+centers+company+tickers&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTI0NzY2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-SYMBOLS = ['MSFT', 'ORCL', 'NVDA', 'AVGO', 'VRT', 'GDS', 'DTST', 'AMT', 'IRM', 'EQIX', 'DLR'] # 'COR', 'QTS', 'CONE'
+SYMBOLS = ['AMZN', 'GOOGL', 'MSFT', 'ORCL', 'NVDA', 'CSCO', 'PSTG', 'AVGO', 'ETN', 'VRT', 'GDS', 'DTST', 'AMT', 'IRM', 'EQIX', 'DLR'] # 'COR', 'QTS', 'CONE'
 
 for symbol in SYMBOLS:
     data = YFinance3(symbol)
