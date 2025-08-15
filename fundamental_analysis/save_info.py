@@ -4,8 +4,8 @@ import json
 # https://finance.yahoo.com/lookup
 #SYMBOLS = ['INTU','CDNS','WDAY','ROP','TEAM','ADSK','DDOG','ANSS','ZM','PTC',\
 #           'BSY','GRAB','SSNC','APP','AZPN','MANH','ZI','NICE']
-
-SYMBOLS = ['ADSK','PTC','NICE', 'ADBE', 'AAPL', 'META']
+# Data Centers https://www.youtube.com/watch?v=Od6_Val6C5g
+SYMBOLS = ['ADSK','EQIX','COR', 'DLR', 'CONE', 'QTS']
 
 for symbol in SYMBOLS:
     data = YFinance3(symbol)
