@@ -4,8 +4,10 @@ import json
 # https://finance.yahoo.com/lookup
 #SYMBOLS = ['INTU','CDNS','WDAY','ROP','TEAM','ADSK','DDOG','ANSS','ZM','PTC',\
 #           'BSY','GRAB','SSNC','APP','AZPN','MANH','ZI','NICE']
+
 # Data Centers https://www.youtube.com/watch?v=Od6_Val6C5g
-SYMBOLS = ['ADSK', 'EQIX', 'DLR'] # 'COR', 'QTS', 'CONE'
+# https://www.google.com/search?q=data+centers+company+tickers&rlz=1C5CHFA_enCH1007CH1007&oq=data+centers+company+tickers&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTI0NzY2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+SYMBOLS = ['MSFT', 'ORCL', 'NVDA', 'AVGO', 'VRT', 'GDS', 'DTST', 'AMT', 'IRM', 'EQIX', 'DLR'] # 'COR', 'QTS', 'CONE'
 
 for symbol in SYMBOLS:
     data = YFinance3(symbol)
