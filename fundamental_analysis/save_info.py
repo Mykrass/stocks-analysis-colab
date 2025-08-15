@@ -5,7 +5,7 @@ import json
 #SYMBOLS = ['INTU','CDNS','WDAY','ROP','TEAM','ADSK','DDOG','ANSS','ZM','PTC',\
 #           'BSY','GRAB','SSNC','APP','AZPN','MANH','ZI','NICE']
 # Data Centers https://www.youtube.com/watch?v=Od6_Val6C5g
-SYMBOLS = ['EQIX', 'COR', 'DLR', 'CONE', 'QTS']
+SYMBOLS = ['ADSK', 'EQIX', 'QTS']
 
 for symbol in SYMBOLS:
     data = YFinance3(symbol)
